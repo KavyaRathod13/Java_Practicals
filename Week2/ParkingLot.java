@@ -75,7 +75,6 @@ class ParkingLot
         obj.park("two");
         obj.park("two");
         obj.park("two");
-        obj.park("two");
         obj.park("four");
         obj.park("four");
         obj.park("four");
