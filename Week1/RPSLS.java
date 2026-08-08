@@ -50,13 +50,13 @@ class  RPSLS
                 Move computer=moves[r.nextInt(moves.length)];
                 System.out.println("Your move:"+player);
                 System.out.println("Computer move:"+computer);
-                int result=winner(player,computer);
-                if(result==1)
+                int res=winner(player,computer);
+                if(res==1)
                 {
                     System.out.println("You won!");
                     playerScore++;
                 }
-                else if(result==-1)
+                else if(res==-1)
                 {
                     System.out.println("Computer won!");
                     compScore++;
